@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context="com.mirzahansuslu.chessclock.MainActivity">
+    <!--<SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/timer_sb" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0:30"
+        android:textSize="60sp"
+        android:id="@+id/timer" />-->
+
+
+    <TextView
+        android:id="@+id/twCountdown2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        android:text="00:00"
+        android:textColor="@color/black"
+android:rotation="180"
+
+        android:textSize="30sp" />
+
+
+
+    <RelativeLayout
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonStartPause2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:backgroundTint="@android:color/white"
+            android:rotation="180"
+            android:text="START"
+            android:textColor="@color/black" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/buttonStartPause"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:backgroundTint="@android:color/black"
+            android:text="START" />
+
+
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/twCountdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="00:00"
+
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+
+
+        android:textSize="30sp" />
+
+</LinearLayout>
